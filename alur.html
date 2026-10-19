@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Alur Pengerjaan & Tahapan Kerja Terstruktur TJKT Smart Network - Konsultasi, Survey, Perencanaan, Instalasi, Testing, & Maintenance.">
+    <title>Alur Kerja - TJKT Smart Network</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JS External -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- PRELOADER SCREEN -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <div class="network-pulse">
+                <div class="pulse-ring"></div>
+                <div class="pulse-ring"></div>
+                <div class="logo-icon-preloader">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                        <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                        <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                        <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                    </svg>
+                </div>
+            </div>
+            <h2 class="preloader-title">TJKT <span>SMART NETWORK</span></h2>
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="preloaderProgress"></div>
+            </div>
+            <p class="preloader-status" id="preloaderText">Memuat Halaman Alur Kerja...</p>
+        </div>
+    </div>
+
+    <!-- HEADER & NAVBAR -->
+    <header id="mainHeader" class="scroll">
+        <nav class="nav-container">
+            <a href="index.html" class="logo-brand">
+                <div class="logo-icon-wrapper">
+                    <svg class="brand-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                        <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                        <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                        <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-name">TJKT</span>
+                    <span class="brand-sub">Smart Network</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Beranda</a></li>
+                <li><a href="tentang.html" class="nav-link">Tentang Kami</a></li>
+                <li><a href="layanan.html" class="nav-link">Layanan</a></li>
+                <li><a href="alur.html" class="nav-link active">Alur Kerja</a></li>
+                <li><a href="kontak.html" class="nav-link">Kontak</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/6285875139458?text=Halo%20TJKT%20Smart%20Network,%20saya%20ingin%20konsultasi."
+                    target="_blank" rel="noopener" class="btn-nav">
+                    <span>Konsultasi</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2.5">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+                <button class="hamburger-toggle" id="hamburgerBtn" aria-label="Buka Menu Navigasi">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- PAGE HEADER BANNER -->
+        <section class="page-banner">
+            <div class="container text-center" style="text-align: center;">
+                <div class="section-tag">TAHAPAN PENGERJAAN</div>
+                <h1 class="page-banner-title">Alur Pengerjaan Terstruktur</h1>
+                <p class="page-banner-desc">Metodologi kerja yang rapi dan terukur untuk menjamin kepastian kualitas dan
+                    ketepatan waktu proyek.</p>
+            </div>
+        </section>
+
+        <!-- TIMELINE SECTION -->
+        <section class="workflow-section">
+            <div class="container">
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+
+                    <!-- Step 1 -->
+                    <div class="timeline-step reveal">
+                        <div class="step-badge">1</div>
+                        <div class="step-content">
+                            <h3>1. Konsultasi & Pemetaan Kebutuhan</h3>
+                            <p>Tahap awal pengumpulan data: analisis jumlah titik pengguna (users/node), lokasi fisik
+                                gedung, kendala internet/jaringan yang sering terjadi, serta estimasi anggaran yang
+                                diproyeksikan.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="timeline-step reveal">
+                        <div class="step-badge">2</div>
+                        <div class="step-content">
+                            <h3>2. Survey Lokasi & Pemetaan Fisik</h3>
+                            <p>Tim teknisi berpengalaman melakukan inspeksi langsung ke lokasi untuk mengukur rute jalur
+                                kabel UTP/FO, pemetaan denah ruangan, identifikasi interferensi sinyal Wi-Fi, dan titik
+                                posisi rack server.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="timeline-step reveal">
+                        <div class="step-badge">3</div>
+                        <div class="step-content">
+                            <h3>3. Perencanaan Topologi & Bill of Materials</h3>
+                            <p>Pembuatan dokumen desain topologi jaringan lengkap (skema IP Subnetting, konfigurasi
+                                VLAN, spesifikasi kabel/router) beserta penawaran Rencana Anggaran Biaya (RAB) yang
+                                transparan.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="timeline-step reveal">
+                        <div class="step-badge">4</div>
+                        <div class="step-content">
+                            <h3>4. Instalasi Fisik & Setup Perangkat</h3>
+                            <p>Penarikan kabel terstruktur, mounting Access Point/CCTV, perakitan rack server,
+                                pencetakan patch panel, serta instalasi setting firmware Router & Switch sesuai skema
+                                topologi.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="timeline-step reveal">
+                        <div class="step-badge">5</div>
+                        <div class="step-content">
+                            <h3>5. Pengujian & Quality Assurance</h3>
+                            <p>Pengujian ketat kestabilan koneksi, tes kecepatan throughput kabel/wireless, pemastian
+                                zero-packet loss, pengujian redaman sinyal Fiber Optik OTDR, dan uji coba beban penuh
+                                (*stress testing*).</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="timeline-step reveal">
+                        <div class="step-badge">6</div>
+                        <div class="step-content">
+                            <h3>6. Serah Terima (Handover) & Garansi</h3>
+                            <p>Penyerahan dokumen peta topologi jaringan dan kredensial admin, pelatihan singkat untuk
+                                admin IT lokal, serta aktifasi sertifikat garansi pemeliharaan resmi dari TJKT Smart
+                                Network.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-box reveal">
+                    <div class="cta-glow"></div>
+                    <h2 class="cta-title">Mulai Tahap Pertama Pengerjaan Jaringan Anda Hari Ini</h2>
+                    <p class="cta-text">Jadwalkan survey lokasi gratis bersama tim teknisi TJKT Smart Network.</p>
+                    <div class="cta-actions">
+                        <a href="kontak.html" class="btn btn-primary btn-large">
+                            <span>Jadwalkan Survey Lokasi</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <div class="logo-brand">
+                        <div class="logo-icon-wrapper">
+                            <svg class="brand-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <span class="brand-name">TJKT</span>
+                            <span class="brand-sub">Smart Network</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc">Mitra terpercaya dalam solusi perancangan, instalasi, dan perawatan
+                        infrastruktur jaringan komputer profesional.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Halaman Utama</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="tentang.html">Tentang Kami</a></li>
+                        <li><a href="layanan.html">Layanan</a></li>
+                        <li><a href="alur.html">Alur Kerja</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Layanan Utama</h4>
+                    <ul class="footer-links">
+                        <li><a href="layanan.html">Instalasi LAN</a></li>
+                        <li><a href="layanan.html">Konfigurasi Router</a></li>
+                        <li><a href="layanan.html">CCTV IP Camera</a></li>
+                        <li><a href="layanan.html">Fiber Optik Splicing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <div class="footer-contact-item"><span>📧</span>
+                        <p>semuauntuksatu65@gmail.com</p>
+                    </div>
+                    <div class="footer-contact-item"><span>📞</span>
+                        <p>0858-7513-9458</p>
+                    </div>
+                    <div class="footer-contact-item"><span>📍</span>
+                        <p>Surakarta, Jawa Tengah</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 TJKT Smart Network. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- UTILITIES -->
+    <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+    <a href="https://wa.me/6285875139458?text=Halo%20TJKT%20Smart%20Network," target="_blank" rel="noopener"
+        class="whatsapp-float" aria-label="Chat WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2">
+            <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+            </path>
+        </svg>
+        <span class="wa-badge">1</span>
+    </a>
+
+</body>
+
+</html>
